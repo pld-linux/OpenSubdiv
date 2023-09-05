@@ -19,7 +19,7 @@ URL:		https://github.com/PixarAnimationStudios/OpenSubdiv
 BuildRequires:	OpenCL-devel >= 1.1
 BuildRequires:	OpenGL-devel
 BuildRequires:	OpenGL-GLX-devel
-BuildRequires:	clew-devel
+BuildRequires:	clew-devel >= 0.10
 BuildRequires:	cmake >= 3.12
 BuildRequires:	glew-devel
 BuildRequires:	glfw-devel >= 3.0.0
