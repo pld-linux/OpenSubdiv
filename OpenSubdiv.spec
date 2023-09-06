@@ -99,6 +99,7 @@ Dokumentacja API bibliotek OpenSubdiv.
 install -d build
 cd build
 %cmake .. \
+	-DCMAKE_LIBDIR_BASE=%{_lib} \
 	%{!?with_apidocs:-DNO_DOC=ON} \
 	-DNO_EXAMPLES=ON \
 	-DNO_GLEW=OFF \
