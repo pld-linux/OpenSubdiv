@@ -93,7 +93,7 @@ Dokumentacja API bibliotek OpenSubdiv.
 
 %prep
 %setup -q -n %{name}-%{tagver}
-%patch0 -p1
+%patch -P0 -p1
 
 %build
 install -d build
