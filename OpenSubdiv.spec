@@ -8,7 +8,7 @@ Summary(pl.UTF-8):	Mająca otwarte źródła biblioteka podpodziału powierzchni
 Name:		OpenSubdiv
 Version:	3.5.1
 %define	tagver	%(echo %{version} | tr . _)
-Release:	1
+Release:	2
 License:	Modified Apache v2.0
 Group:		Libraries
 #Source0Download: https://github.com/PixarAnimationStudios/OpenSubdiv/tags
